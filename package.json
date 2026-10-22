@@ -5,6 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "node server.js",
-    "build": "echo 'Build successful'"
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/clipboard": "^8.0.1",
+    "@capacitor-community/speech-recognition": "^7.0.1",
+    "@capacitor-community/text-to-speech": "^8.0.2"
   }
 }

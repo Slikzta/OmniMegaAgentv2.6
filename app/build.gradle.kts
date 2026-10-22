@@ -76,6 +76,10 @@ secrets {
   propertiesFileName = ".env"
   defaultPropertiesFileName = ".env.example"
   ignoreList.add("FIREBASE_APPCHECK_DEBUG_TOKEN")
+  ignoreList.add("GITHUB_CLIENT_ID")
+  ignoreList.add("GITHUB_CLIENT_SECRET")
+  ignoreList.add("SUPABASE_ANON_KEY")
+  ignoreList.add("SUPABASE_URL")
 }
 
 googleServices { missingGoogleServicesStrategy = MissingGoogleServicesStrategy.WARN }
